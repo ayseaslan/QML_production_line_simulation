@@ -6,7 +6,7 @@ For example, using the randomized policy that assigns a state for the worker ran
 
 ![](https://github.com/ayseaslan/QML_production_line_simulation/blob/master/video_random_policy.gif)  
 
-However, employing the policy that serves the station with the highest number of waiting jobs, as illustrated below, can balance the number of waiting jobs at the stations and achieve a higher throughput. 
+However, employing a smarter policy that prioritizes the stations based on the number of waiting jobs and the speed of service, as illustrated below, can balance the number of waiting jobs at the stations and achieve a higher throughput. 
 
 ![](https://github.com/ayseaslan/QML_production_line_simulation/blob/master/video_cmu_priority_policy.gif)  
 
